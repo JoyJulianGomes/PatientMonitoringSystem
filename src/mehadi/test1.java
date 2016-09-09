@@ -32,10 +32,10 @@ import model.Patient;
 
 
 public class test1 extends JFrame {
-	//diff check
+	
 	
 	private JPanel contentPane;
-	//visible diff
+	
 	private JTextField textField;
 	private JTextField textField_1;
 	private JTextField textField_2;
