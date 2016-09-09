@@ -32,7 +32,8 @@ import model.Patient;
 
 
 public class test1 extends JFrame {
-
+	//git testing editing
+	//git second comit
 	private JPanel contentPane;
 	private JTextField textField;
 	private JTextField textField_1;
