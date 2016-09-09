@@ -32,7 +32,7 @@ import model.Patient;
 
 
 public class test1 extends JFrame {
-	//diff check
+	
 	
 	private JPanel contentPane;
 	//visible diff
