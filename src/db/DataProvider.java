@@ -275,6 +275,27 @@ public class DataProvider {
 		}
 		return null;
 	}
+	public static ArrayList<String> getAllTests(){
+		ArrayList<String> names = new ArrayList<String>();
+		try{
+			Connection con = DBConnection.getConnection();	
+			Statement stmt = con.createStatement();
+			
+			String q = "select name from test";
+			System.out.println(q);
+			ResultSet rs = stmt.executeQuery(q);
+			
+			while(rs.next()){
+				names.add(rs.getString("name"));
+			}
+			return names;
+		} 
+		catch (SQLException e) {
+			System.out.println("problem in database update");
+			e.printStackTrace();
+		}
+		return null;
+	}
 	public static String[][] getReport(int pid, String test, String Date){
 		try{
 			Connection con = DBConnection.getConnection();	
@@ -402,7 +423,7 @@ public class DataProvider {
 			stmt = con.createStatement();
 			String query = "insert into test (name) Values ( "+"'"+name+"' )";
 			System.out.println(query);
-			//stmt.executeUpdate(query);
+			stmt.executeUpdate(query);
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

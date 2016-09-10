@@ -162,13 +162,7 @@ public class test1 extends JFrame {
 		JComboBox<String> comboBox = new JComboBox<String>();
 		comboBox.setBounds(10, 176, 178, 32);
 		pathTest.add(comboBox);
-		comboBox.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		comboBox.addItem("-select-");
-		comboBox.addItem("URIN TEST");
-		comboBox.addItem( "LIPID PROFILE TEST");
-		comboBox.addItem("STOOL TEST");
-		comboBox.addItem("CBC TEST");
-		comboBox.addItem("LIVER FUNCTION TEST");
+		
 		
 		textField_12 = new JTextField();
 		textField_12.setBounds(10, 353, 436, 193);
@@ -208,6 +202,63 @@ public class test1 extends JFrame {
 				//STATUS.setVisible(false);
 			}
 		});
+		btnCancel.setBounds(10, 557, 90, 35);
+		pathTest.add(btnCancel);
+		
+		textField_14 = new JTextField();
+		textField_14.setBackground(Color.WHITE);
+		textField_14.setFont(new Font("Tahoma", Font.PLAIN, 11));
+		textField_14.setForeground(Color.BLACK);
+		textField_14.setBounds(232, 176, 178, 32);
+		pathTest.add(textField_14);
+		textField_14.setColumns(10);
+		
+		patDetails.add(pathTest, "name_190462614557490");
+		
+		JLabel lblPatname = new JLabel("patName");
+		lblPatname.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblPatname.setBounds(89, 67, 212, 20);
+		pathTest.add(lblPatname);
+		
+		JLabel lblPatage = new JLabel("patAge");
+		lblPatage.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblPatage.setBounds(89, 94, 51, 16);
+		pathTest.add(lblPatage);
+		
+		JLabel lblSex_2 = new JLabel("sex");
+		lblSex_2.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblSex_2.setBounds(89, 119, 51, 16);
+		pathTest.add(lblSex_2);
+		
+		JLabel lblPatid = new JLabel("patId");
+		lblPatid.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblPatid.setBounds(518, 97, 128, 17);
+		pathTest.add(lblPatid);
+		
+		JButton btnAddtest = new JButton("");
+		btnAddtest.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		btnAddtest.setBackground(Color.WHITE);
+		btnAddtest.setIcon(new ImageIcon(test1.class.getResource("/icons/green-button-add-hi (1).png")));
+		btnAddtest.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				if(!textField_14.getText().equals("")){
+					DataProvider.InsertTestTable(textField_14.getText());
+					ArrayList<String>TestNames = DataProvider.getAllTests();
+					for(String name : TestNames){
+						comboBox.addItem(name);
+					}
+					textField_14.setText("");
+				}
+			}
+		});
+		btnAddtest.setBounds(444, 176, 106, 32);
+		pathTest.add(btnAddtest);
+		
+		JLabel lblNewLabel_5 = new JLabel("");
+		lblNewLabel_5.setIcon(new ImageIcon(test1.class.getResource("/images/file.jpeg")));
+		lblNewLabel_5.setBounds(0, 0, 1104, 606);
+		pathTest.add(lblNewLabel_5);
+		pathTest.setFocusTraversalPolicy(new FocusTraversalOnArray(new Component[]{lblName, lblAge_1, lblGender_1, lblTestName, lblDescription, comboBox, textField_12, lblPatientId_1, btnSend, btnCancel, textField_14, lblPatname, lblPatage, lblSex_2, lblPatid, btnAddtest}));
 		
 		//panel patient profile ends
 		
@@ -859,59 +910,6 @@ public class test1 extends JFrame {
 				}
 			}
 		});
-		btnCancel.setBounds(10, 557, 90, 35);
-		pathTest.add(btnCancel);
-		
-		textField_14 = new JTextField();
-		textField_14.setBackground(Color.WHITE);
-		textField_14.setFont(new Font("Tahoma", Font.PLAIN, 11));
-		textField_14.setForeground(Color.BLACK);
-		textField_14.setBounds(232, 176, 178, 32);
-		pathTest.add(textField_14);
-		textField_14.setColumns(10);
-		
-		patDetails.add(pathTest, "name_190462614557490");
-		
-		JLabel lblPatname = new JLabel("patName");
-		lblPatname.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblPatname.setBounds(89, 67, 212, 20);
-		pathTest.add(lblPatname);
-		
-		JLabel lblPatage = new JLabel("patAge");
-		lblPatage.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblPatage.setBounds(89, 94, 51, 16);
-		pathTest.add(lblPatage);
-		
-		JLabel lblSex_2 = new JLabel("sex");
-		lblSex_2.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblSex_2.setBounds(89, 119, 51, 16);
-		pathTest.add(lblSex_2);
-		
-		JLabel lblPatid = new JLabel("patId");
-		lblPatid.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblPatid.setBounds(518, 97, 128, 17);
-		pathTest.add(lblPatid);
-		
-		JButton btnAddtest = new JButton("");
-		btnAddtest.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		btnAddtest.setBackground(Color.WHITE);
-		btnAddtest.setIcon(new ImageIcon(test1.class.getResource("/icons/green-button-add-hi (1).png")));
-		btnAddtest.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
-				if(!textField_14.getText().equals("")){
-					DataProvider.InsertTestTable(textField_14.getText());
-					textField_14.setText("");
-				}
-			}
-		});
-		btnAddtest.setBounds(444, 176, 106, 32);
-		pathTest.add(btnAddtest);
-		
-		JLabel lblNewLabel_5 = new JLabel("");
-		lblNewLabel_5.setIcon(new ImageIcon(test1.class.getResource("/images/file.jpeg")));
-		lblNewLabel_5.setBounds(0, 0, 1104, 606);
-		pathTest.add(lblNewLabel_5);
-		pathTest.setFocusTraversalPolicy(new FocusTraversalOnArray(new Component[]{lblName, lblAge_1, lblGender_1, lblTestName, lblDescription, comboBox, textField_12, lblPatientId_1, btnSend, btnCancel, textField_14, lblPatname, lblPatage, lblSex_2, lblPatid, btnAddtest}));
 		
 				
 			
@@ -1442,6 +1440,11 @@ btnTest.addActionListener(new ActionListener() {
 				patient_profile.setVisible(false);
 				report.setVisible(false);
 				graph.setVisible(false);
+				
+				ArrayList<String>TestNames = DataProvider.getAllTests();
+				for(String name : TestNames){
+					comboBox.addItem(name);
+				}
 			}
 		});
 
