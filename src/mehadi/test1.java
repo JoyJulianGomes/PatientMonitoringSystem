@@ -89,22 +89,22 @@ public class test1 extends JFrame {
 		docLogin.setLayout(null);
 		
 		JLabel lblDoctorId = new JLabel("DOCTOR ID :");
-		lblDoctorId.setBounds(291, 313, 137, 27);
+		lblDoctorId.setBounds(495, 248, 92, 39);
 		lblDoctorId.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		docLogin.add(lblDoctorId);
 		
 		JLabel lblPassword = new JLabel("PASSWORD :");
-		lblPassword.setBounds(291, 338, 89, 27);
+		lblPassword.setBounds(495, 298, 92, 39);
 		lblPassword.setFont(new Font("Tahoma", Font.PLAIN, 14));
 		docLogin.add(lblPassword);
 		
 		textField = new JTextField();
-		textField.setBounds(379, 316, 86, 20);
+		textField.setBounds(595, 250, 130, 39);
 		docLogin.add(textField);
 		textField.setColumns(10);
 		
 		passwordField = new JPasswordField();
-		passwordField.setBounds(379, 341, 86, 20);
+		passwordField.setBounds(595, 300, 130, 39);
 		docLogin.add(passwordField);
 		passwordField.setColumns(10);
 		
@@ -124,697 +124,6 @@ public class test1 extends JFrame {
 		JPanel patDetails = new JPanel();
 		contentPane.add(patDetails, "name_190462603930491");
 		patDetails.setLayout(null);
-								
-										
-									
-										
-								       // frame.getContentPane().add(panel);
-										
-										//pat search page finish
-								
-									    //patient profile panel begin
-										
-										JPanel patient_profile = new JPanel();
-										patient_profile.setBounds(147, 0, 1104, 606);
-										patient_profile.setBackground(Color.WHITE);
-										patient_profile.setLayout(null);
-										
-										JLabel lblWeight = new JLabel("WEIGHT :");
-										lblWeight.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblWeight.setBounds(280, 127, 109, 20);
-										patient_profile.add(lblWeight);
-										
-										JLabel lblName_1 = new JLabel("NAME :");
-										lblName_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblName_1.setBounds(64, 82, 109, 20);
-										patient_profile.add(lblName_1);
-										
-										JLabel lblAge = new JLabel("AGE :");
-										lblAge.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblAge.setBounds(64, 127, 78, 20);
-										patient_profile.add(lblAge);
-										
-										JLabel lblSex = new JLabel("SEX :");
-										lblSex.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblSex.setBounds(64, 171, 78, 23);
-										patient_profile.add(lblSex);
-										
-										JLabel lblMaritalStatus = new JLabel("MARITAL STATUS :");
-										lblMaritalStatus.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblMaritalStatus.setBounds(64, 227, 220, 28);
-										patient_profile.add(lblMaritalStatus);
-										
-										JLabel lblReligion = new JLabel("RELIGION :");
-										lblReligion.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblReligion.setBounds(64, 306, 132, 30);
-										patient_profile.add(lblReligion);
-										
-										JLabel lblOccupation = new JLabel("OCCUPATION :");
-										lblOccupation.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblOccupation.setBounds(64, 369, 174, 34);
-										patient_profile.add(lblOccupation);
-										
-										JLabel lblContactNumber = new JLabel("CONTACT NUMBER :");
-										lblContactNumber.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblContactNumber.setBounds(577, 441, 220, 28);
-										patient_profile.add(lblContactNumber);
-										
-										JLabel lblHeight = new JLabel("HEIGHT :");
-										lblHeight.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblHeight.setBounds(280, 158, 109, 23);
-										patient_profile.add(lblHeight);
-										
-										JLabel lblCheifComplaint = new JLabel("CHEIF COMPLAINT :");
-										lblCheifComplaint.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblCheifComplaint.setBounds(503, 277, 220, 28);
-										patient_profile.add(lblCheifComplaint);
-										
-										JLabel lblDrugHistory = new JLabel("DRUG HISTORY :");
-										lblDrugHistory.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblDrugHistory.setBounds(503, 307, 187, 28);
-										patient_profile.add(lblDrugHistory);
-										
-										JLabel lblNewLabel_3Name = new JLabel("New Label");
-										lblNewLabel_3Name.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										//lblNewLabel_3.setText("");
-										lblNewLabel_3Name.setBounds(154, 82, 260, 20);
-										patient_profile.add(lblNewLabel_3Name);
-										
-										JLabel lblAge_2 = new JLabel("Age");
-										lblAge_2.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblAge_2.setBounds(133, 126, 78, 23);
-										patient_profile.add(lblAge_2);
-										
-										JLabel lblSex_1 = new JLabel("Sex");
-										lblSex_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblSex_1.setBounds(133, 171, 132, 23);
-										patient_profile.add(lblSex_1);
-										
-										JLabel lblMstatus = new JLabel("MStatus");
-										lblMstatus.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblMstatus.setBounds(280, 227, 174, 28);
-										patient_profile.add(lblMstatus);
-										
-										JLabel lblReligion_1 = new JLabel("Religion");
-										lblReligion_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblReligion_1.setBounds(206, 304, 149, 35);
-										patient_profile.add(lblReligion_1);
-										
-										JLabel lblOccupation_1 = new JLabel("Occupation");
-										lblOccupation_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblOccupation_1.setBounds(236, 369, 206, 34);
-										patient_profile.add(lblOccupation_1);
-										
-										JLabel lblWeight_1 = new JLabel("Weight");
-										lblWeight_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblWeight_1.setBounds(399, 123, 49, 28);
-										patient_profile.add(lblWeight_1);
-										
-										JLabel lblHeight_1 = new JLabel("Height");
-										lblHeight_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblHeight_1.setBounds(399, 154, 195, 30);
-										patient_profile.add(lblHeight_1);
-										
-										JLabel lblComplaint = new JLabel("Complaint");
-										lblComplaint.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblComplaint.setBounds(733, 274, 187, 35);
-										patient_profile.add(lblComplaint);
-										
-										JLabel lblDrugHistory_1 = new JLabel("Drug History");
-										lblDrugHistory_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblDrugHistory_1.setBounds(700, 306, 281, 30);
-										patient_profile.add(lblDrugHistory_1);
-										
-										JLabel lblContact = new JLabel("Contact");
-										lblContact.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblContact.setBounds(807, 440, 234, 31);
-										patient_profile.add(lblContact);
-										
-										patDetails.add(patient_profile);
-										
-										JLabel lblKg = new JLabel("KG");
-										lblKg.setFont(new Font("Tahoma", Font.PLAIN, 24));
-										lblKg.setBounds(426, 124, 67, 23);
-										patient_profile.add(lblKg);
-										
-										JLabel lblNewLabel_9 = new JLabel("");
-										lblNewLabel_9.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\images\\file4545.jpeg"));
-										lblNewLabel_9.setBounds(0, 0, 1104, 606);
-										patient_profile.add(lblNewLabel_9);
-						
-						//panel patient profile ends
-						
-						//panel history begins
-						
-						JPanel HISTORY = new JPanel();
-						//HISTORY.setToolTipText("");
-						HISTORY.setBackground(Color.WHITE);
-						HISTORY.setForeground(new Color(0, 0, 0));
-						HISTORY.setBounds(148, 0, 1104, 606);
-						HISTORY.setLayout(null);
-						
-						JLabel lblApearance = new JLabel("APEARANCE");
-						lblApearance.setForeground(Color.RED);
-						lblApearance.setFont(new Font("Tahoma", Font.PLAIN, 28));
-						lblApearance.setBounds(10, 109, 161, 47);
-						HISTORY.add(lblApearance);
-						
-						JCheckBox chckbxIllLooking = new JCheckBox("ILL LOOKING");
-						chckbxIllLooking.setBackground(Color.WHITE);
-						chckbxIllLooking.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxIllLooking.setBounds(20, 180, 125, 23);
-						HISTORY.add(chckbxIllLooking);
-						
-						JCheckBox chckbxLathergic = new JCheckBox("LETHARGIC");
-						chckbxLathergic.setBackground(Color.WHITE);
-						chckbxLathergic.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxLathergic.setBounds(20, 217, 125, 23);
-						HISTORY.add(chckbxLathergic);
-						
-						JCheckBox chckbxCachexia = new JCheckBox("CACHEXIA");
-						chckbxCachexia.setBackground(Color.WHITE);
-						chckbxCachexia.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxCachexia.setBounds(20, 253, 125, 23);
-						HISTORY.add(chckbxCachexia);
-						
-						JCheckBox chckbxObesity = new JCheckBox("OBESITY");
-						chckbxObesity.setBackground(Color.WHITE);
-						chckbxObesity.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxObesity.setBounds(20, 290, 125, 23);
-						HISTORY.add(chckbxObesity);
-						
-						JCheckBox chckbxPale = new JCheckBox("PALE");
-						chckbxPale.setBackground(Color.WHITE);
-						chckbxPale.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxPale.setBounds(20, 327, 125, 23);
-						HISTORY.add(chckbxPale);
-						
-						JLabel lblMentalStatus = new JLabel("MENTAL STATUS");
-						lblMentalStatus.setForeground(Color.RED);
-						lblMentalStatus.setFont(new Font("Tahoma", Font.PLAIN, 28));
-						lblMentalStatus.setBounds(10, 361, 224, 43);
-						HISTORY.add(lblMentalStatus);
-						
-						JCheckBox chckbxUphoric = new JCheckBox("UPHORIC");
-						chckbxUphoric.setBackground(Color.WHITE);
-						chckbxUphoric.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxUphoric.setBounds(20, 438, 132, 23);
-						HISTORY.add(chckbxUphoric);
-						
-						JCheckBox chckbxPathetic = new JCheckBox("PATHETIC");
-						chckbxPathetic.setBackground(Color.WHITE);
-						chckbxPathetic.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxPathetic.setBounds(20, 464, 132, 23);
-						HISTORY.add(chckbxPathetic);
-						
-						JCheckBox chckbxVolent = new JCheckBox("VIOLENT");
-						chckbxVolent.setBackground(Color.WHITE);
-						chckbxVolent.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxVolent.setBounds(20, 490, 132, 23);
-						HISTORY.add(chckbxVolent);
-						
-						JCheckBox chckbxCalmCooperative = new JCheckBox("CALM & COOPERATIVE");
-						chckbxCalmCooperative.setBackground(Color.WHITE);
-						chckbxCalmCooperative.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxCalmCooperative.setBounds(20, 516, 203, 23);
-						HISTORY.add(chckbxCalmCooperative);
-						
-						JLabel lblRespiratoryRate = new JLabel("RESPIRATORY RATE :");
-						lblRespiratoryRate.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\respiratory_system_stop_music-.png"));
-						lblRespiratoryRate.setForeground(Color.RED);
-						lblRespiratoryRate.setFont(new Font("Tahoma", Font.BOLD, 16));
-						lblRespiratoryRate.setBounds(240, 126, 224, 30);
-						HISTORY.add(lblRespiratoryRate);
-						
-						JLabel lblTemparature = new JLabel("TEMPARATURE :");
-						lblTemparature.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\temp_1_32x32.png"));
-						lblTemparature.setForeground(Color.RED);
-						lblTemparature.setFont(new Font("Tahoma", Font.BOLD, 16));
-						lblTemparature.setBounds(240, 180, 184, 48);
-						HISTORY.add(lblTemparature);
-						
-						JLabel lblPulseRate = new JLabel("PULSE RATE :");
-						lblPulseRate.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\heart-green_32x32.png"));
-						lblPulseRate.setForeground(Color.RED);
-						lblPulseRate.setFont(new Font("Tahoma", Font.BOLD, 16));
-						lblPulseRate.setBounds(240, 248, 162, 32);
-						HISTORY.add(lblPulseRate);
-						
-						JLabel lblBloodPressure_1 = new JLabel("BLOOD PRESSURE :");
-						lblBloodPressure_1.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\blood-pressure-screening-clipa.png"));
-						lblBloodPressure_1.setForeground(Color.RED);
-						lblBloodPressure_1.setFont(new Font("Tahoma", Font.BOLD, 16));
-						lblBloodPressure_1.setBounds(240, 296, 204, 36);
-						HISTORY.add(lblBloodPressure_1);
-						
-						JLabel lblAGeneralPhysical = new JLabel("General physical findings");
-						lblAGeneralPhysical.setForeground(Color.RED);
-						lblAGeneralPhysical.setFont(new Font("Tahoma", Font.PLAIN, 38));
-						lblAGeneralPhysical.setBounds(20, 26, 441, 72);
-						HISTORY.add(lblAGeneralPhysical);
-						
-						JCheckBox chckbxNewCheckBox = new JCheckBox("EDEMA");
-						chckbxNewCheckBox.setBackground(Color.WHITE);
-						chckbxNewCheckBox.setForeground(Color.RED);
-						chckbxNewCheckBox.setFont(new Font("Tahoma", Font.BOLD, 16));
-						chckbxNewCheckBox.setBounds(277, 427, 167, 23);
-						HISTORY.add(chckbxNewCheckBox);
-						
-						JCheckBox chckbxCynisis = new JCheckBox("CYNOSIS");
-						chckbxCynisis.setBackground(Color.WHITE);
-						chckbxCynisis.setForeground(Color.RED);
-						chckbxCynisis.setFont(new Font("Tahoma", Font.BOLD, 16));
-						chckbxCynisis.setBounds(277, 478, 167, 23);
-						HISTORY.add(chckbxCynisis);
-						
-						JLabel lblBSystemicExamination = new JLabel("SYSTEMIC EXAMINATION FINDINGS");
-						lblBSystemicExamination.setForeground(Color.BLUE);
-						lblBSystemicExamination.setFont(new Font("Tahoma", Font.PLAIN, 30));
-						lblBSystemicExamination.setBounds(576, 32, 518, 60);
-						HISTORY.add(lblBSystemicExamination);
-						
-						JCheckBox chckbxNewCheckBox_1 = new JCheckBox("Alimentary system");
-						chckbxNewCheckBox_1.setBackground(new Color(255, 255, 255));
-						chckbxNewCheckBox_1.setForeground(Color.BLUE);
-						chckbxNewCheckBox_1.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxNewCheckBox_1.setBounds(865, 126, 197, 23);
-						HISTORY.add(chckbxNewCheckBox_1);
-						
-						JCheckBox chckbxRespiratorySystem = new JCheckBox("Respiratory system");
-						chckbxRespiratorySystem.setBackground(Color.WHITE);
-						chckbxRespiratorySystem.setForeground(Color.BLUE);
-						chckbxRespiratorySystem.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxRespiratorySystem.setBounds(865, 212, 197, 23);
-						HISTORY.add(chckbxRespiratorySystem);
-						
-						JCheckBox chckbxNewCheckBox_2 = new JCheckBox("Cardiovascular system");
-						chckbxNewCheckBox_2.setBackground(Color.WHITE);
-						chckbxNewCheckBox_2.setForeground(Color.BLUE);
-						chckbxNewCheckBox_2.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxNewCheckBox_2.setBounds(865, 298, 197, 23);
-						HISTORY.add(chckbxNewCheckBox_2);
-						
-						JCheckBox chckbxNewCheckBox_3 = new JCheckBox("Nervous system");
-						chckbxNewCheckBox_3.setBackground(Color.WHITE);
-						chckbxNewCheckBox_3.setForeground(Color.BLUE);
-						chckbxNewCheckBox_3.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxNewCheckBox_3.setBounds(865, 384, 197, 23);
-						HISTORY.add(chckbxNewCheckBox_3);
-						
-						JCheckBox chckbxNewCheckBox_4 = new JCheckBox("Locomotor system");
-						chckbxNewCheckBox_4.setBackground(Color.WHITE);
-						chckbxNewCheckBox_4.setForeground(Color.BLUE);
-						chckbxNewCheckBox_4.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxNewCheckBox_4.setBounds(865, 470, 197, 23);
-						HISTORY.add(chckbxNewCheckBox_4);
-						
-						patDetails.add(HISTORY);
-						
-						JCheckBox chckbxUnconscious = new JCheckBox("UNCONSCIOUS");
-						chckbxUnconscious.setBackground(Color.WHITE);
-						chckbxUnconscious.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						chckbxUnconscious.setBounds(20, 412, 132, 23);
-						HISTORY.add(chckbxUnconscious);
-						
-						JLabel lblResp = new JLabel("Resp");
-						lblResp.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						lblResp.setForeground(Color.RED);
-						lblResp.setBounds(465, 126, 27, 30);
-						lblResp.setText("");
-						HISTORY.add(lblResp);
-						
-						JLabel lblTemp = new JLabel("temp");
-						lblTemp.setForeground(Color.RED);
-						lblTemp.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						lblTemp.setBackground(Color.WHITE);
-						lblTemp.setText("");
-						lblTemp.setBounds(423, 194, 41, 23);
-						HISTORY.add(lblTemp);
-						
-						JLabel lblPulse = new JLabel("");
-						lblPulse.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						lblPulse.setForeground(Color.RED);
-						lblPulse.setBounds(393, 253, 27, 23);
-						HISTORY.add(lblPulse);
-						
-						JLabel lblBp = new JLabel("");
-						lblBp.setForeground(Color.RED);
-						lblBp.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						lblBp.setBounds(438, 296, 53, 36);
-						HISTORY.add(lblBp);
-						
-						JLabel lblPerMin = new JLabel("per min");
-						lblPerMin.setForeground(Color.RED);
-						lblPerMin.setFont(new Font("Tahoma", Font.PLAIN, 14));
-						lblPerMin.setBounds(490, 126, 53, 30);
-						HISTORY.add(lblPerMin);
-						
-						JLabel lblPerMin_1 = new JLabel("F");
-						lblPerMin_1.setForeground(Color.RED);
-						lblPerMin_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
-						lblPerMin_1.setBounds(465, 194, 59, 20);
-						HISTORY.add(lblPerMin_1);
-						
-						JLabel lblPerMin_2 = new JLabel("per min");
-						lblPerMin_2.setFont(new Font("Tahoma", Font.PLAIN, 15));
-						lblPerMin_2.setForeground(Color.RED);
-						lblPerMin_2.setBounds(423, 254, 69, 20);
-						HISTORY.add(lblPerMin_2);
-						
-						txtRespRateInp = new JTextField();
-						txtRespRateInp.setBounds(277, 155, 86, 20);
-						HISTORY.add(txtRespRateInp);
-						txtRespRateInp.setColumns(10);
-						
-						txtTempInp = new JTextField();
-						txtTempInp.setBounds(277, 220, 86, 20);
-						HISTORY.add(txtTempInp);
-						txtTempInp.setColumns(10);
-						
-						txtPulseInp = new JTextField();
-						txtPulseInp.setText("");
-						txtPulseInp.setBounds(277, 277, 86, 20);
-						HISTORY.add(txtPulseInp);
-						txtPulseInp.setColumns(10);
-						
-						txtBPSInp = new JTextField();
-						txtBPSInp.setForeground(Color.RED);
-						txtBPSInp.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						txtBPSInp.setBounds(277, 330, 86, 20);
-						HISTORY.add(txtBPSInp);
-						txtBPSInp.setColumns(10);
-						
-						JButton btnNewButton_1 = new JButton("");
-						btnNewButton_1.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\save-changes (1).png"));
-						btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 16));
-						btnNewButton_1.addActionListener(new ActionListener() {
-							public void actionPerformed(ActionEvent arg0) {
-							
-								//appearance table
-								ArrayList<Boolean> Appearance = new ArrayList<Boolean>();
-//				JCheckBox chckbxIllLooking = new JCheckBox("ILL LOOKING");
-								if(chckbxIllLooking.isSelected()){
-									System.out.println("Ill Looking is true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("Ill Looking is false");
-									Appearance.add(false);
-								}
-
-//				JCheckBox chckbxLathergic = new JCheckBox("LATHARGIC");
-								if(chckbxLathergic.isSelected()){
-									System.out.println("chckbxLathergic true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxLathergic false");
-									Appearance.add(false);
-								}
-								//chckbxUnconscious
-								if(chckbxUnconscious.isSelected()){
-									System.out.println("chckbxUnconscious true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxUnconscious false");
-									Appearance.add(false);
-								}
-//				JCheckBox chckbxCachexia = new JCheckBox("CACHEXIA");
-								if(chckbxCachexia.isSelected()){
-									System.out.println("chckbxCachexia true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxCachexia false");
-									Appearance.add(false);
-								}
-
-//				JCheckBox chckbxObesity = new JCheckBox("OBESITY");
-								if(chckbxObesity.isSelected()){
-									System.out.println("chckbxObesity true");
-									Appearance.add(true);
-								}
-								else
-								{
-									System.out.println("chckbxObesity false");
-									Appearance.add(false);
-								}
-								
-//				JCheckBox chckbxCynisis = new JCheckBox("CYNOSIS");
-								if(chckbxCynisis.isSelected()){
-									System.out.println("chckbxCynisis true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxCynisis false");
-									Appearance.add(false);
-								}
-//				JCheckBox chckbxNewCheckBox = new JCheckBox("EDEMA");
-								if(chckbxNewCheckBox.isSelected()){
-									System.out.println("chckbxNewCheckBox-EDMA true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxNewCheckBox-EDMA false");
-									Appearance.add(false);
-								}
-
-//				JCheckBox chckbxPale = new JCheckBox("PALE");
-								if(chckbxPale.isSelected()){
-									System.out.println("chckbxPale true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxPale false");
-									Appearance.add(false);
-								}
-
-//				JCheckBox chckbxUphoric = new JCheckBox("UPHORIC");
-								if(chckbxUphoric.isSelected()){
-									System.out.println("chckbxUphoric true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxUphoric false");
-									Appearance.add(false);
-								}
-
-//				JCheckBox chckbxPathetic = new JCheckBox("PATHETIC");
-								if(chckbxPathetic.isSelected()){
-									System.out.println("chckbxPathetic true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxPathetic false");
-									Appearance.add(false);
-								}
-
-//				JCheckBox chckbxVolent = new JCheckBox("VIOLENT");
-								if(chckbxVolent.isSelected()){
-									System.out.println("chckbxVolent true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxVolent false");
-									Appearance.add(false);
-								}
-
-//				JCheckBox chckbxCalmCooperative = new JCheckBox("CALM & COOPERATIVE");
-								if(chckbxCalmCooperative.isSelected()){
-									System.out.println("chckbxCalmCooperative true");
-									Appearance.add(true);
-								}
-								else{
-									System.out.println("chckbxCalmCooperative false");
-									Appearance.add(false);
-								}
-								DataProvider.UpdateAppearanceTable(pat.getPID(), Appearance);
-								//respiratory table
-//				JLabel lblResp = new JLabel("Resp");
-								
-								double RespRateUpdate = Double.parseDouble(lblResp.getText());
-								if(!txtRespRateInp.getText().equals("")){
-									System.out.println("inside fetch set RespRateUpdate");
-									RespRateUpdate = Double.parseDouble(txtRespRateInp.getText());
-									System.out.println(RespRateUpdate);
-									
-								    DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-								    //get current date time with Date()
-								    Date date = new Date();
-								    String d = dateFormat.format(date);
-								    System.out.println(d);
-									
-								    DataProvider.InsertRespiratoryTable(pat.getPID(), d, RespRateUpdate);
-								}
-								else System.out.println(RespRateUpdate);
-								//temp table
-//				JLabel lblTemparature = new JLabel("TEMPARATURE :");
-								double TempUpdate;
-								if(!txtTempInp.getText().equals("")){
-									System.out.println("inside fetch set TempUpdate");
-									TempUpdate = Double.parseDouble(txtTempInp.getText());
-									System.out.println(TempUpdate);
-									
-									DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-								    Date date = new Date();
-								    String d = dateFormat.format(date);
-								    System.out.println(d);
-									
-								    DataProvider.InsertTempTable(pat.getPID(), d, TempUpdate);
-								}
-								//pulse table
-//				JLabel lblPulseRate = new JLabel("PULSE RATE :");
-								int PulseUpdate = Integer.parseInt(lblPulse.getText());;
-								if(!txtPulseInp.getText().equals("")){
-									System.out.println("inside PulseUpdateInp");
-									PulseUpdate = Integer.parseInt(txtPulseInp.getText());
-									System.out.println(PulseUpdate);
-									
-									DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-								    //get current date time with Date()
-								    Date date = new Date();
-								    String d = dateFormat.format(date);
-								    System.out.println(d);
-									
-								    DataProvider.InsertPulseTable(pat.getPID(), d, PulseUpdate);	
-								}
-								//bloodpressure table
-//				JLabel lblBloodPressure_1 = new JLabel("BLOOD PRESSURE :");
-								String BPUpdate= lblBloodPressure_1.getText();
-								if(!txtBPSInp.getText().equals("") && !txtBPDInp.getText().equals("")){
-									int BPSUpdate = Integer.parseInt(txtBPSInp.getText());
-									System.out.println(BPSUpdate);
-									int BPDUpdate = Integer.parseInt(txtBPDInp.getText());
-									System.out.println(BPDUpdate);
-									
-									DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-								    //get current date time with Date()
-								    Date date = new Date();
-								    String d = dateFormat.format(date);
-								    System.out.println(d);
-									
-								    DataProvider.InsertBPTable(pat.getPID(), d, BPSUpdate, BPDUpdate);	
-								}
-
-								//systemic_finding table
-								ArrayList<Boolean> SysFind = new ArrayList<Boolean>();
-//				JCheckBox chckbxNewCheckBox_1 = new JCheckBox("Alimentary system");
-								if(chckbxNewCheckBox_1.isSelected()){
-									System.out.println("chckbxNewCheckBox_1-Alimentary true");
-									SysFind.add(true);
-								}
-								else{
-									System.out.println("chckbxNewCheckBox_1-Alimentary false");
-									SysFind.add(false);
-								}
-//				JCheckBox chckbxRespiratorySystem = new JCheckBox("Respiratory system");
-								if(chckbxRespiratorySystem.isSelected()){
-									System.out.println("chckbxRespiratorySystem-Respiratory true");
-									SysFind.add(true);
-								}
-								else{
-									System.out.println("chckbxRespiratorySystem-Respiratory false");
-									SysFind.add(false);
-								}
-//				JCheckBox chckbxNewCheckBox_2 = new JCheckBox("Cardiovascular system");
-								if(chckbxNewCheckBox_2.isSelected()){
-									System.out.println("chckbxNewCheckBox_2-Cardiovascular true");
-									SysFind.add(true);
-								}
-								else{
-									System.out.println("chckbxNewCheckBox_2-Cardiovascular false");
-									SysFind.add(false);
-								}
-//				JCheckBox chckbxNewCheckBox_3 = new JCheckBox("Nervous system");
-								if(chckbxNewCheckBox_3.isSelected()){
-									System.out.println("chckbxNewCheckBox_3-Nervous system true");
-									SysFind.add(true);
-								}
-								else{
-									System.out.println("chckbxNewCheckBox_3-Nervous system false");
-									SysFind.add(false);
-								}
-//				JCheckBox chckbxNewCheckBox_4 = new JCheckBox("Locomotor system");
-								if(chckbxNewCheckBox_4.isSelected()){
-									System.out.println("chckbxNewCheckBox_4-Locomotor system true");
-									SysFind.add(true);
-								}
-								else{
-									System.out.println("chckbxNewCheckBox_4-Locomotor system false");
-									SysFind.add(false);
-								}
-								DataProvider.UpdateSysFindTable(pat.getPID(), SysFind);
-								
-								
-								
-								
-								
-								//Clearing Text Fields
-								txtRespRateInp.setText("");
-								txtTempInp.setText("");
-								txtPulseInp.setText("");
-								txtBPSInp.setText("");
-								txtBPDInp.setText("");
-							}
-						});
-						btnNewButton_1.setBounds(927, 540, 167, 55);
-						HISTORY.add(btnNewButton_1);
-						
-						txtBPDInp = new JTextField();
-						txtBPDInp.setForeground(Color.BLUE);
-						txtBPDInp.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						txtBPDInp.setBounds(373, 330, 86, 20);
-						HISTORY.add(txtBPDInp);
-						txtBPDInp.setColumns(10);
-						
-						JLabel lblMmhg = new JLabel("mmHg");
-						lblMmhg.setForeground(Color.RED);
-						lblMmhg.setFont(new Font("Tahoma", Font.PLAIN, 15));
-						lblMmhg.setBounds(501, 304, 69, 20);
-						HISTORY.add(lblMmhg);
-						
-						JLabel lblDiastole = new JLabel("Diastole");
-						lblDiastole.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						lblDiastole.setForeground(Color.BLUE);
-						lblDiastole.setBounds(385, 352, 91, 23);
-						HISTORY.add(lblDiastole);
-						
-						JLabel lblNewLabel_2 = new JLabel("Systole");
-						lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 16));
-						lblNewLabel_2.setForeground(Color.RED);
-						lblNewLabel_2.setBounds(294, 352, 69, 23);
-						HISTORY.add(lblNewLabel_2);
-						
-						JLabel lblNewLabel_3 = new JLabel("");
-						lblNewLabel_3.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\digestive-system2_render-jpg88_64x64.png"));
-						lblNewLabel_3.setBounds(795, 109, 64, 64);
-						HISTORY.add(lblNewLabel_3);
-						
-						JLabel label_1 = new JLabel("");
-						label_1.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\icon-respiratory.png"));
-						label_1.setBounds(795, 192, 69, 64);
-						HISTORY.add(label_1);
-						
-						JLabel label_2 = new JLabel("");
-						label_2.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\icon-cardio (1).gif"));
-						label_2.setBounds(795, 278, 64, 64);
-						HISTORY.add(label_2);
-						
-						JLabel lblNewLabel_4 = new JLabel("");
-						lblNewLabel_4.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\central-nervous-system-icon.png"));
-						lblNewLabel_4.setBounds(795, 364, 64, 64);
-						HISTORY.add(lblNewLabel_4);
-						
-						JLabel lblNewLabel_7 = new JLabel("");
-						lblNewLabel_7.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\images\\wc6mb4 (1).png"));
-						lblNewLabel_7.setBounds(448, 82, 369, 495);
-						HISTORY.add(lblNewLabel_7);
-						
-						JLabel lblNewLabel_8 = new JLabel("");
-						lblNewLabel_8.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\Standing_skeleton_64x64.png"));
-						lblNewLabel_8.setBounds(795, 450, 64, 64);
-						HISTORY.add(lblNewLabel_8);
 		
 		//panel history ends 
 		
@@ -872,7 +181,7 @@ public class test1 extends JFrame {
 		pathTest.add(lblPatientId_1);
 		
 		JButton btnSend = new JButton("");
-		btnSend.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\send-button.png"));
+		btnSend.setIcon(new ImageIcon(test1.class.getResource("/icons/send-button.png")));
 		btnSend.setForeground(Color.BLUE);
 		btnSend.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		btnSend.setBounds(966, 553, 118, 32);
@@ -885,7 +194,7 @@ public class test1 extends JFrame {
 		});
 		
 		JButton btnCancel = new JButton("");
-		btnCancel.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\cancel-button-300x115.png"));
+		btnCancel.setIcon(new ImageIcon(test1.class.getResource("/icons/cancel-button-300x115.png")));
 		btnCancel.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		btnCancel.setForeground(Color.RED);
 		btnCancel.addActionListener(new ActionListener() {
@@ -897,6 +206,657 @@ public class test1 extends JFrame {
 				pathTest.setVisible(false);
 				//HISTORY.setVisible(false);
 				//STATUS.setVisible(false);
+			}
+		});
+		
+		//panel patient profile ends
+		
+		//panel history begins
+		
+		JPanel HISTORY = new JPanel();
+		//HISTORY.setToolTipText("");
+		HISTORY.setBackground(Color.WHITE);
+		HISTORY.setForeground(new Color(0, 0, 0));
+		HISTORY.setBounds(148, 0, 1104, 606);
+		HISTORY.setLayout(null);
+		
+		JLabel lblApearance = new JLabel("APEARANCE");
+		lblApearance.setForeground(Color.RED);
+		lblApearance.setFont(new Font("Tahoma", Font.PLAIN, 28));
+		lblApearance.setBounds(20, 102, 161, 47);
+		HISTORY.add(lblApearance);
+		
+		JCheckBox chckbxIllLooking = new JCheckBox("ILL LOOKING");
+		chckbxIllLooking.setBackground(Color.WHITE);
+		chckbxIllLooking.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxIllLooking.setBounds(20, 139, 125, 23);
+		HISTORY.add(chckbxIllLooking);
+		
+		JCheckBox chckbxLathergic = new JCheckBox("LETHARGIC");
+		chckbxLathergic.setBackground(Color.WHITE);
+		chckbxLathergic.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxLathergic.setBounds(20, 165, 125, 23);
+		HISTORY.add(chckbxLathergic);
+		
+		JCheckBox chckbxCachexia = new JCheckBox("CACHEXIA");
+		chckbxCachexia.setBackground(Color.WHITE);
+		chckbxCachexia.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxCachexia.setBounds(20, 191, 125, 23);
+		HISTORY.add(chckbxCachexia);
+		
+		JCheckBox chckbxObesity = new JCheckBox("OBESITY");
+		chckbxObesity.setBackground(Color.WHITE);
+		chckbxObesity.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxObesity.setBounds(20, 217, 125, 23);
+		HISTORY.add(chckbxObesity);
+		
+		JCheckBox chckbxPale = new JCheckBox("PALE");
+		chckbxPale.setBackground(Color.WHITE);
+		chckbxPale.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxPale.setBounds(20, 243, 125, 23);
+		HISTORY.add(chckbxPale);
+		
+		JLabel lblMentalStatus = new JLabel("MENTAL STATUS");
+		lblMentalStatus.setForeground(Color.RED);
+		lblMentalStatus.setFont(new Font("Tahoma", Font.PLAIN, 28));
+		lblMentalStatus.setBounds(211, 102, 224, 43);
+		HISTORY.add(lblMentalStatus);
+		
+		JCheckBox chckbxUphoric = new JCheckBox("UPHORIC");
+		chckbxUphoric.setBackground(Color.WHITE);
+		chckbxUphoric.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxUphoric.setBounds(221, 165, 132, 23);
+		HISTORY.add(chckbxUphoric);
+		
+		JCheckBox chckbxPathetic = new JCheckBox("PATHETIC");
+		chckbxPathetic.setBackground(Color.WHITE);
+		chckbxPathetic.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxPathetic.setBounds(221, 191, 132, 23);
+		HISTORY.add(chckbxPathetic);
+		
+		JCheckBox chckbxVolent = new JCheckBox("VIOLENT");
+		chckbxVolent.setBackground(Color.WHITE);
+		chckbxVolent.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxVolent.setBounds(221, 217, 132, 23);
+		HISTORY.add(chckbxVolent);
+		
+		JCheckBox chckbxCalmCooperative = new JCheckBox("CALM & COOPERATIVE");
+		chckbxCalmCooperative.setBackground(Color.WHITE);
+		chckbxCalmCooperative.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxCalmCooperative.setBounds(221, 243, 203, 23);
+		HISTORY.add(chckbxCalmCooperative);
+		
+		JLabel lblRespiratoryRate = new JLabel("RESPIRATORY RATE :");
+		lblRespiratoryRate.setIcon(new ImageIcon(test1.class.getResource("/icons/respiratory_system_stop_music-.png")));
+		lblRespiratoryRate.setForeground(new Color(255, 102, 0));
+		lblRespiratoryRate.setFont(new Font("Tahoma", Font.BOLD, 16));
+		lblRespiratoryRate.setBounds(20, 328, 224, 30);
+		HISTORY.add(lblRespiratoryRate);
+		
+		JLabel lblTemparature = new JLabel("TEMPARATURE :");
+		lblTemparature.setIcon(new ImageIcon(test1.class.getResource("/icons/temp_1_32x32.png")));
+		lblTemparature.setForeground(new Color(255, 102, 0));
+		lblTemparature.setFont(new Font("Tahoma", Font.BOLD, 16));
+		lblTemparature.setBounds(20, 382, 184, 48);
+		HISTORY.add(lblTemparature);
+		
+		JLabel lblPulseRate = new JLabel("PULSE RATE :");
+		lblPulseRate.setIcon(new ImageIcon(test1.class.getResource("/icons/icon-02_32x32.png")));
+		lblPulseRate.setForeground(new Color(255, 102, 0));
+		lblPulseRate.setFont(new Font("Tahoma", Font.BOLD, 16));
+		lblPulseRate.setBounds(20, 450, 162, 32);
+		HISTORY.add(lblPulseRate);
+		
+		JLabel lblBloodPressure_1 = new JLabel("BLOOD PRESSURE :");
+		lblBloodPressure_1.setIcon(new ImageIcon(test1.class.getResource("/icons/blood-pressure-screening-clipa.png")));
+		lblBloodPressure_1.setForeground(new Color(255, 102, 0));
+		lblBloodPressure_1.setFont(new Font("Tahoma", Font.BOLD, 16));
+		lblBloodPressure_1.setBounds(20, 498, 204, 36);
+		HISTORY.add(lblBloodPressure_1);
+		
+		JLabel lblAGeneralPhysical = new JLabel("General physical findings");
+		lblAGeneralPhysical.setForeground(Color.RED);
+		lblAGeneralPhysical.setFont(new Font("Tahoma", Font.PLAIN, 38));
+		lblAGeneralPhysical.setBounds(20, 26, 441, 72);
+		HISTORY.add(lblAGeneralPhysical);
+		
+		JCheckBox chckbxNewCheckBox = new JCheckBox("EDEMA");
+		chckbxNewCheckBox.setBackground(Color.WHITE);
+		chckbxNewCheckBox.setForeground(Color.RED);
+		chckbxNewCheckBox.setFont(new Font("Tahoma", Font.BOLD, 16));
+		chckbxNewCheckBox.setBounds(20, 269, 167, 23);
+		HISTORY.add(chckbxNewCheckBox);
+		
+		JCheckBox chckbxCynisis = new JCheckBox("CYNOSIS");
+		chckbxCynisis.setBackground(Color.WHITE);
+		chckbxCynisis.setForeground(Color.RED);
+		chckbxCynisis.setFont(new Font("Tahoma", Font.BOLD, 16));
+		chckbxCynisis.setBounds(221, 269, 177, 23);
+		HISTORY.add(chckbxCynisis);
+		
+		JLabel lblBSystemicExamination = new JLabel("SYSTEMIC EXAMINATION FINDINGS");
+		lblBSystemicExamination.setForeground(Color.BLUE);
+		lblBSystemicExamination.setFont(new Font("Tahoma", Font.PLAIN, 30));
+		lblBSystemicExamination.setBounds(576, 32, 518, 60);
+		HISTORY.add(lblBSystemicExamination);
+		
+		JCheckBox chckbxNewCheckBox_1 = new JCheckBox("Alimentary system");
+		chckbxNewCheckBox_1.setBackground(new Color(255, 255, 255));
+		chckbxNewCheckBox_1.setForeground(Color.BLUE);
+		chckbxNewCheckBox_1.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxNewCheckBox_1.setBounds(865, 126, 197, 23);
+		HISTORY.add(chckbxNewCheckBox_1);
+		
+		JCheckBox chckbxRespiratorySystem = new JCheckBox("Respiratory system");
+		chckbxRespiratorySystem.setBackground(Color.WHITE);
+		chckbxRespiratorySystem.setForeground(Color.BLUE);
+		chckbxRespiratorySystem.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxRespiratorySystem.setBounds(865, 212, 197, 23);
+		HISTORY.add(chckbxRespiratorySystem);
+		
+		JCheckBox chckbxNewCheckBox_2 = new JCheckBox("Cardiovascular system");
+		chckbxNewCheckBox_2.setBackground(Color.WHITE);
+		chckbxNewCheckBox_2.setForeground(Color.BLUE);
+		chckbxNewCheckBox_2.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxNewCheckBox_2.setBounds(865, 298, 197, 23);
+		HISTORY.add(chckbxNewCheckBox_2);
+		
+		JCheckBox chckbxNewCheckBox_3 = new JCheckBox("Nervous system");
+		chckbxNewCheckBox_3.setBackground(Color.WHITE);
+		chckbxNewCheckBox_3.setForeground(Color.BLUE);
+		chckbxNewCheckBox_3.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxNewCheckBox_3.setBounds(865, 384, 197, 23);
+		HISTORY.add(chckbxNewCheckBox_3);
+		
+		JCheckBox chckbxNewCheckBox_4 = new JCheckBox("Locomotor system");
+		chckbxNewCheckBox_4.setBackground(Color.WHITE);
+		chckbxNewCheckBox_4.setForeground(Color.BLUE);
+		chckbxNewCheckBox_4.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxNewCheckBox_4.setBounds(865, 470, 197, 23);
+		HISTORY.add(chckbxNewCheckBox_4);
+		
+		patDetails.add(HISTORY);
+		
+		JCheckBox chckbxUnconscious = new JCheckBox("UNCONSCIOUS");
+		chckbxUnconscious.setBackground(Color.WHITE);
+		chckbxUnconscious.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		chckbxUnconscious.setBounds(221, 139, 132, 23);
+		HISTORY.add(chckbxUnconscious);
+		
+		JLabel lblResp = new JLabel("Resp");
+		lblResp.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblResp.setForeground(Color.RED);
+		lblResp.setBounds(245, 328, 27, 30);
+		lblResp.setText("");
+		HISTORY.add(lblResp);
+		
+		JLabel lblTemp = new JLabel("temp");
+		lblTemp.setForeground(Color.RED);
+		lblTemp.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblTemp.setBackground(Color.WHITE);
+		lblTemp.setText("");
+		lblTemp.setBounds(203, 396, 41, 23);
+		HISTORY.add(lblTemp);
+		
+		JLabel lblPulse = new JLabel("");
+		lblPulse.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblPulse.setForeground(Color.RED);
+		lblPulse.setBounds(173, 455, 27, 23);
+		HISTORY.add(lblPulse);
+		
+		JLabel lblBp = new JLabel("");
+		lblBp.setForeground(Color.RED);
+		lblBp.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblBp.setBounds(218, 498, 53, 36);
+		HISTORY.add(lblBp);
+		
+		JLabel lblPerMin = new JLabel("per min");
+		lblPerMin.setForeground(new Color(255, 102, 0));
+		lblPerMin.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		lblPerMin.setBounds(270, 328, 53, 30);
+		HISTORY.add(lblPerMin);
+		
+		JLabel lblPerMin_1 = new JLabel("F");
+		lblPerMin_1.setForeground(new Color(255, 102, 0));
+		lblPerMin_1.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblPerMin_1.setBounds(245, 396, 59, 20);
+		HISTORY.add(lblPerMin_1);
+		
+		JLabel lblPerMin_2 = new JLabel("per min");
+		lblPerMin_2.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblPerMin_2.setForeground(new Color(255, 102, 0));
+		lblPerMin_2.setBounds(203, 456, 69, 20);
+		HISTORY.add(lblPerMin_2);
+		
+		txtRespRateInp = new JTextField();
+		txtRespRateInp.setBounds(57, 357, 86, 20);
+		HISTORY.add(txtRespRateInp);
+		txtRespRateInp.setColumns(10);
+		
+		txtTempInp = new JTextField();
+		txtTempInp.setBounds(57, 422, 86, 20);
+		HISTORY.add(txtTempInp);
+		txtTempInp.setColumns(10);
+		
+		txtPulseInp = new JTextField();
+		txtPulseInp.setText("");
+		txtPulseInp.setBounds(57, 479, 86, 20);
+		HISTORY.add(txtPulseInp);
+		txtPulseInp.setColumns(10);
+		
+		txtBPSInp = new JTextField();
+		txtBPSInp.setForeground(Color.RED);
+		txtBPSInp.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		txtBPSInp.setBounds(57, 532, 86, 20);
+		HISTORY.add(txtBPSInp);
+		txtBPSInp.setColumns(10);
+		
+		JButton btnNewButton_1 = new JButton("");
+		btnNewButton_1.setIcon(new ImageIcon(test1.class.getResource("/icons/save-changes (1).png")));
+		btnNewButton_1.setFont(new Font("Tahoma", Font.BOLD, 16));
+		btnNewButton_1.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+			
+				//appearance table
+				ArrayList<Boolean> Appearance = new ArrayList<Boolean>();
+//				JCheckBox chckbxIllLooking = new JCheckBox("ILL LOOKING");
+				if(chckbxIllLooking.isSelected()){
+					System.out.println("Ill Looking is true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("Ill Looking is false");
+					Appearance.add(false);
+				}
+
+//				JCheckBox chckbxLathergic = new JCheckBox("LATHARGIC");
+				if(chckbxLathergic.isSelected()){
+					System.out.println("chckbxLathergic true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxLathergic false");
+					Appearance.add(false);
+				}
+				//chckbxUnconscious
+				if(chckbxUnconscious.isSelected()){
+					System.out.println("chckbxUnconscious true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxUnconscious false");
+					Appearance.add(false);
+				}
+//				JCheckBox chckbxCachexia = new JCheckBox("CACHEXIA");
+				if(chckbxCachexia.isSelected()){
+					System.out.println("chckbxCachexia true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxCachexia false");
+					Appearance.add(false);
+				}
+
+//				JCheckBox chckbxObesity = new JCheckBox("OBESITY");
+				if(chckbxObesity.isSelected()){
+					System.out.println("chckbxObesity true");
+					Appearance.add(true);
+				}
+				else
+				{
+					System.out.println("chckbxObesity false");
+					Appearance.add(false);
+				}
+				
+//				JCheckBox chckbxCynisis = new JCheckBox("CYNOSIS");
+				if(chckbxCynisis.isSelected()){
+					System.out.println("chckbxCynisis true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxCynisis false");
+					Appearance.add(false);
+				}
+//				JCheckBox chckbxNewCheckBox = new JCheckBox("EDEMA");
+				if(chckbxNewCheckBox.isSelected()){
+					System.out.println("chckbxNewCheckBox-EDMA true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxNewCheckBox-EDMA false");
+					Appearance.add(false);
+				}
+
+//				JCheckBox chckbxPale = new JCheckBox("PALE");
+				if(chckbxPale.isSelected()){
+					System.out.println("chckbxPale true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxPale false");
+					Appearance.add(false);
+				}
+
+//				JCheckBox chckbxUphoric = new JCheckBox("UPHORIC");
+				if(chckbxUphoric.isSelected()){
+					System.out.println("chckbxUphoric true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxUphoric false");
+					Appearance.add(false);
+				}
+
+//				JCheckBox chckbxPathetic = new JCheckBox("PATHETIC");
+				if(chckbxPathetic.isSelected()){
+					System.out.println("chckbxPathetic true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxPathetic false");
+					Appearance.add(false);
+				}
+
+//				JCheckBox chckbxVolent = new JCheckBox("VIOLENT");
+				if(chckbxVolent.isSelected()){
+					System.out.println("chckbxVolent true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxVolent false");
+					Appearance.add(false);
+				}
+
+//				JCheckBox chckbxCalmCooperative = new JCheckBox("CALM & COOPERATIVE");
+				if(chckbxCalmCooperative.isSelected()){
+					System.out.println("chckbxCalmCooperative true");
+					Appearance.add(true);
+				}
+				else{
+					System.out.println("chckbxCalmCooperative false");
+					Appearance.add(false);
+				}
+				DataProvider.UpdateAppearanceTable(pat.getPID(), Appearance);
+				//respiratory table
+//				JLabel lblResp = new JLabel("Resp");
+				
+				double RespRateUpdate = Double.parseDouble(lblResp.getText());
+				if(!txtRespRateInp.getText().equals("")){
+					System.out.println("inside fetch set RespRateUpdate");
+					RespRateUpdate = Double.parseDouble(txtRespRateInp.getText());
+					System.out.println(RespRateUpdate);
+					
+				    DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				    //get current date time with Date()
+				    Date date = new Date();
+				    String d = dateFormat.format(date);
+				    System.out.println(d);
+					
+				    DataProvider.InsertRespiratoryTable(pat.getPID(), d, RespRateUpdate);
+				  
+				    //Updating pat object
+					pat.setRp((int)Double.parseDouble(txtRespRateInp.getText()));
+					
+					//Updating panel labels to current value
+					lblResp.setText(Integer.toString(pat.getRp())); 
+					
+					//Clearing Text Fields
+					txtRespRateInp.setText("");
+					
+				}
+				else System.out.println(RespRateUpdate);
+				//temp table
+//				JLabel lblTemparature = new JLabel("TEMPARATURE :");
+				double TempUpdate;
+				if(!txtTempInp.getText().equals("")){
+					System.out.println("inside fetch set TempUpdate");
+					TempUpdate = Double.parseDouble(txtTempInp.getText());
+					System.out.println(TempUpdate);
+					
+					DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				    Date date = new Date();
+				    String d = dateFormat.format(date);
+				    System.out.println(d);
+					
+				    DataProvider.InsertTempTable(pat.getPID(), d, TempUpdate);
+				   
+				    //Updating pat object
+					pat.setTemp((int)Double.parseDouble(txtTempInp.getText()));
+					//Updating panel labels to current value
+					lblTemp.setText(Double.toString(pat.getTemp()));
+					//Clearing Text Fields
+					txtTempInp.setText("");
+				}
+				//pulse table
+//				JLabel lblPulseRate = new JLabel("PULSE RATE :");
+				int PulseUpdate = Integer.parseInt(lblPulse.getText());;
+				if(!txtPulseInp.getText().equals("")){
+					System.out.println("inside PulseUpdateInp");
+					PulseUpdate = Integer.parseInt(txtPulseInp.getText());
+					System.out.println(PulseUpdate);
+					
+					DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				    //get current date time with Date()
+				    Date date = new Date();
+				    String d = dateFormat.format(date);
+				    System.out.println(d);
+					
+				    DataProvider.InsertPulseTable(pat.getPID(), d, PulseUpdate);
+				    
+				    //Updating pat object
+					pat.setPulse(Integer.parseInt(txtPulseInp.getText()));
+					//Updating panel labels to current value
+					lblPulse.setText(Integer.toString(pat.getPulse()));
+					//Clearing Text Fields
+					txtPulseInp.setText("");
+					
+				}
+				//bloodpressure table
+//				JLabel lblBloodPressure_1 = new JLabel("BLOOD PRESSURE :");
+				String BPUpdate= lblBloodPressure_1.getText();
+				if(!txtBPSInp.getText().equals("") && !txtBPDInp.getText().equals("")){
+					int BPSUpdate = Integer.parseInt(txtBPSInp.getText());
+					System.out.println(BPSUpdate);
+					int BPDUpdate = Integer.parseInt(txtBPDInp.getText());
+					System.out.println(BPDUpdate);
+					
+					DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+				    //get current date time with Date()
+				    Date date = new Date();
+				    String d = dateFormat.format(date);
+				    System.out.println(d);
+					
+				    DataProvider.InsertBPTable(pat.getPID(), d, BPSUpdate, BPDUpdate);	
+				    
+				    //Updating pat object
+					pat.setSys(Integer.parseInt(txtBPSInp.getText()));
+					pat.setDia(Integer.parseInt(txtBPDInp.getText()));
+					
+					//Updating panel labels to current value
+					lblBp.setText(Integer.toString(pat.getSys())+"/"+Integer.toString(pat.getDia()));
+					
+					
+					//Clearing Text Fields
+					txtBPSInp.setText("");
+					txtBPDInp.setText("");
+				}
+			
+				//systemic_finding table
+				ArrayList<Boolean> SysFind = new ArrayList<Boolean>();
+//				JCheckBox chckbxNewCheckBox_1 = new JCheckBox("Alimentary system");
+				if(chckbxNewCheckBox_1.isSelected()){
+					System.out.println("chckbxNewCheckBox_1-Alimentary true");
+					SysFind.add(true);
+				}
+				else{
+					System.out.println("chckbxNewCheckBox_1-Alimentary false");
+					SysFind.add(false);
+				}
+//				JCheckBox chckbxRespiratorySystem = new JCheckBox("Respiratory system");
+				if(chckbxRespiratorySystem.isSelected()){
+					System.out.println("chckbxRespiratorySystem-Respiratory true");
+					SysFind.add(true);
+				}
+				else{
+					System.out.println("chckbxRespiratorySystem-Respiratory false");
+					SysFind.add(false);
+				}
+//				JCheckBox chckbxNewCheckBox_2 = new JCheckBox("Cardiovascular system");
+				if(chckbxNewCheckBox_2.isSelected()){
+					System.out.println("chckbxNewCheckBox_2-Cardiovascular true");
+					SysFind.add(true);
+				}
+				else{
+					System.out.println("chckbxNewCheckBox_2-Cardiovascular false");
+					SysFind.add(false);
+				}
+//				JCheckBox chckbxNewCheckBox_3 = new JCheckBox("Nervous system");
+				if(chckbxNewCheckBox_3.isSelected()){
+					System.out.println("chckbxNewCheckBox_3-Nervous system true");
+					SysFind.add(true);
+				}
+				else{
+					System.out.println("chckbxNewCheckBox_3-Nervous system false");
+					SysFind.add(false);
+				}
+//				JCheckBox chckbxNewCheckBox_4 = new JCheckBox("Locomotor system");
+				if(chckbxNewCheckBox_4.isSelected()){
+					System.out.println("chckbxNewCheckBox_4-Locomotor system true");
+					SysFind.add(true);
+				}
+				else{
+					System.out.println("chckbxNewCheckBox_4-Locomotor system false");
+					SysFind.add(false);
+				}
+				DataProvider.UpdateSysFindTable(pat.getPID(), SysFind);
+
+				
+			}
+		});		btnNewButton_1.setBounds(759, 492, 153, 47);
+		
+		btnNewButton_1.setBounds(896, 532, 167, 48);
+		HISTORY.add(btnNewButton_1);
+		
+		txtBPDInp = new JTextField();
+		txtBPDInp.setForeground(Color.BLUE);
+		txtBPDInp.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		txtBPDInp.setBounds(153, 532, 86, 20);
+		HISTORY.add(txtBPDInp);
+		txtBPDInp.setColumns(10);
+		
+		JLabel lblMmhg = new JLabel("mmHg");
+		lblMmhg.setForeground(new Color(255, 102, 0));
+		lblMmhg.setFont(new Font("Tahoma", Font.PLAIN, 15));
+		lblMmhg.setBounds(281, 506, 69, 20);
+		HISTORY.add(lblMmhg);
+		
+		JLabel lblDiastole = new JLabel("Diastole");
+		lblDiastole.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblDiastole.setForeground(new Color(255, 102, 0));
+		lblDiastole.setBounds(165, 554, 91, 23);
+		HISTORY.add(lblDiastole);
+		
+		JLabel lblNewLabel_2 = new JLabel("Systole");
+		lblNewLabel_2.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		lblNewLabel_2.setForeground(new Color(255, 102, 0));
+		lblNewLabel_2.setBounds(74, 554, 69, 23);
+		HISTORY.add(lblNewLabel_2);
+		
+		JLabel lblNewLabel_3 = new JLabel("");
+		lblNewLabel_3.setIcon(new ImageIcon(test1.class.getResource("/icons/digestive-system2_render-jpg88_64x64.png")));
+		lblNewLabel_3.setBounds(795, 109, 64, 64);
+		HISTORY.add(lblNewLabel_3);
+		
+		JLabel label_1 = new JLabel("");
+		label_1.setIcon(new ImageIcon(test1.class.getResource("/icons/icon-respiratory.png")));
+		label_1.setBounds(806, 191, 53, 64);
+		HISTORY.add(label_1);
+		
+		JLabel label_2 = new JLabel("");
+		label_2.setIcon(new ImageIcon(test1.class.getResource("/icons/icon-cardio (1).gif")));
+		label_2.setBounds(795, 278, 64, 64);
+		HISTORY.add(label_2);
+		
+		JLabel lblNewLabel_4 = new JLabel("");
+		lblNewLabel_4.setIcon(new ImageIcon(test1.class.getResource("/icons/central-nervous-system-icon.png")));
+		lblNewLabel_4.setBounds(795, 364, 64, 64);
+		HISTORY.add(lblNewLabel_4);
+		
+		JLabel lblNewLabel_8 = new JLabel("");
+		lblNewLabel_8.setForeground(new Color(255, 255, 255));
+		lblNewLabel_8.setBackground(new Color(0, 0, 0));
+		lblNewLabel_8.setIcon(new ImageIcon(test1.class.getResource("/icons/Standing skeleton.png")));
+		lblNewLabel_8.setBounds(795, 450, 64, 64);
+		HISTORY.add(lblNewLabel_8);
+		
+		JLabel lblNewLabel_7 = new JLabel("");
+		lblNewLabel_7.setIcon(new ImageIcon(test1.class.getResource("/images/file (1).jpeg")));
+		lblNewLabel_7.setBounds(0, 0, 1104, 606);
+		HISTORY.add(lblNewLabel_7);
+		
+		
+		JPanel report = new JPanel();
+		report.setBounds(147, 0, 1104, 606);
+		patDetails.add(report);
+		report.setBackground(Color.WHITE);
+		report.setLayout(null);
+		
+		JComboBox<String> comboboxTestPicker = new JComboBox<String>();
+		comboboxTestPicker.setFont(new Font("Tahoma", Font.BOLD, 16));
+		comboboxTestPicker.setBounds(355, 99, 188, 38);
+		report.add(comboboxTestPicker);
+		
+		JComboBox<String> comboBoxDatePicker = new JComboBox<String>();
+		comboBoxDatePicker.setFont(new Font("Tahoma", Font.PLAIN, 16));
+		comboBoxDatePicker.setForeground(new Color(0, 0, 0));
+		comboBoxDatePicker.setBounds(587, 99, 188, 38);
+		report.add(comboBoxDatePicker);
+		
+		JButton btnView = new JButton("");
+		btnView.setIcon(new ImageIcon(test1.class.getResource("/icons/csuvdl-testloginbutton (1).png")));
+		btnView.setBounds(794, 99, 147, 38);
+		report.add(btnView);	
+		
+		
+		JTable table_1 = new JTable();
+		table_1.setBounds(85, 151, 400, 300);
+		JScrollPane scrollPane = new JScrollPane(table_1);
+		scrollPane.setBounds(83, 151, 930, 390);
+		report.add(scrollPane);
+		
+		JLabel lblNewLabel_6 = new JLabel("");
+		lblNewLabel_6.setIcon(new ImageIcon(test1.class.getResource("/images/doctor-backgrounds-wallpaper-cave-wryjnfg_1104x606111.jpg")));
+		lblNewLabel_6.setBounds(0, 0, 1104, 606);
+		report.add(lblNewLabel_6);
+		
+		btnView.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				
+				String[][] rs = DataProvider.getReport(pat.getPID(), (String)comboboxTestPicker.getSelectedItem(), (String)comboBoxDatePicker.getSelectedItem());
+
+//				for(int i = 0; i<rs.length; i++){
+//					for(int j = 0; j<rs[0].length; j++){
+//						System.out.println(rs[i][j]);
+//					}
+//				}
+				TableModel tm = new TModel(rs);
+				table_1.setModel(tm);
+			}
+		});
+		
+		comboboxTestPicker.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				
+				String selectedTest = (String) comboboxTestPicker.getSelectedItem();
+				System.out.println(selectedTest);
+				if(selectedTest != null){
+					comboBoxDatePicker.removeAllItems();
+					ArrayList<String> Dates = DataProvider.getTestDates(pat.getPID(), selectedTest);
+					for(String Date : Dates){
+						comboBoxDatePicker.addItem(Date);
+						System.out.println(Date);
+					}
+				}
 			}
 		});
 		btnCancel.setBounds(10, 557, 90, 35);
@@ -935,7 +895,7 @@ public class test1 extends JFrame {
 		JButton btnAddtest = new JButton("");
 		btnAddtest.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		btnAddtest.setBackground(Color.WHITE);
-		btnAddtest.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\green-button-add-hi (1).png"));
+		btnAddtest.setIcon(new ImageIcon(test1.class.getResource("/icons/green-button-add-hi (1).png")));
 		btnAddtest.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				if(!textField_14.getText().equals("")){
@@ -948,76 +908,147 @@ public class test1 extends JFrame {
 		pathTest.add(btnAddtest);
 		
 		JLabel lblNewLabel_5 = new JLabel("");
-		lblNewLabel_5.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\images\\file.jpeg"));
+		lblNewLabel_5.setIcon(new ImageIcon(test1.class.getResource("/images/file.jpeg")));
 		lblNewLabel_5.setBounds(0, 0, 1104, 606);
 		pathTest.add(lblNewLabel_5);
 		pathTest.setFocusTraversalPolicy(new FocusTraversalOnArray(new Component[]{lblName, lblAge_1, lblGender_1, lblTestName, lblDescription, comboBox, textField_12, lblPatientId_1, btnSend, btnCancel, textField_14, lblPatname, lblPatage, lblSex_2, lblPatid, btnAddtest}));
 		
-		
-		JPanel report = new JPanel();
-		report.setBounds(147, 0, 1104, 606);
-		patDetails.add(report);
-		report.setBackground(Color.WHITE);
-		report.setLayout(null);
-		
-		JComboBox<String> comboboxTestPicker = new JComboBox<String>();
-		comboboxTestPicker.setFont(new Font("Tahoma", Font.BOLD, 16));
-		comboboxTestPicker.setBounds(355, 99, 188, 38);
-		report.add(comboboxTestPicker);
-		
-		JComboBox<String> comboBoxDatePicker = new JComboBox<String>();
-		comboBoxDatePicker.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		comboBoxDatePicker.setForeground(new Color(0, 0, 0));
-		comboBoxDatePicker.setBounds(587, 99, 188, 38);
-		report.add(comboBoxDatePicker);
-		
-		JButton btnView = new JButton("");
-		btnView.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\csuvdl-testloginbutton (1).png"));
-		btnView.setBounds(794, 99, 147, 38);
-		report.add(btnView);	
-		
-		
-		JTable table_1 = new JTable();
-		table_1.setBounds(85, 151, 400, 300);
-		JScrollPane scrollPane = new JScrollPane(table_1);
-		scrollPane.setBounds(83, 151, 930, 390);
-		report.add(scrollPane);
-		
-		JLabel lblNewLabel_6 = new JLabel("");
-		lblNewLabel_6.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\images\\doctor-backgrounds-wallpaper-cave-wryjnfg_1104x606111.jpg"));
-		lblNewLabel_6.setBounds(0, 0, 1104, 606);
-		report.add(lblNewLabel_6);
-		
-		btnView.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent arg0) {
 				
-				String[][] rs = DataProvider.getReport(pat.getPID(), (String)comboboxTestPicker.getSelectedItem(), (String)comboBoxDatePicker.getSelectedItem());
-
-//				for(int i = 0; i<rs.length; i++){
-//					for(int j = 0; j<rs[0].length; j++){
-//						System.out.println(rs[i][j]);
-//					}
-//				}
-				TableModel tm = new TModel(rs);
-				table_1.setModel(tm);
-			}
-		});
-		
-		comboboxTestPicker.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+			
 				
-				String selectedTest = (String) comboboxTestPicker.getSelectedItem();
-				System.out.println(selectedTest);
-				if(selectedTest != null){
-					comboBoxDatePicker.removeAllItems();
-					ArrayList<String> Dates = DataProvider.getTestDates(pat.getPID(), selectedTest);
-					for(String Date : Dates){
-						comboBoxDatePicker.addItem(Date);
-						System.out.println(Date);
-					}
-				}
-			}
-		});
+		       // frame.getContentPane().add(panel);
+				
+				//pat search page finish
+		
+			    //patient profile panel begin
+				
+				JPanel patient_profile = new JPanel();
+				patient_profile.setBounds(147, 0, 1104, 606);
+				patient_profile.setBackground(Color.WHITE);
+				patient_profile.setLayout(null);
+				
+				JLabel lblWeight = new JLabel("WEIGHT :");
+				lblWeight.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblWeight.setBounds(64, 209, 109, 20);
+				patient_profile.add(lblWeight);
+				
+				JLabel lblName_1 = new JLabel("NAME :");
+				lblName_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblName_1.setBounds(64, 82, 109, 20);
+				patient_profile.add(lblName_1);
+				
+				JLabel lblAge = new JLabel("AGE :");
+				lblAge.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblAge.setBounds(64, 127, 78, 20);
+				patient_profile.add(lblAge);
+				
+				JLabel lblSex = new JLabel("SEX :");
+				lblSex.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblSex.setBounds(64, 171, 78, 23);
+				patient_profile.add(lblSex);
+				
+				JLabel lblMaritalStatus = new JLabel("MARITAL STATUS :");
+				lblMaritalStatus.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblMaritalStatus.setBounds(64, 279, 220, 28);
+				patient_profile.add(lblMaritalStatus);
+				
+				JLabel lblReligion = new JLabel("RELIGION :");
+				lblReligion.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblReligion.setBounds(64, 312, 132, 30);
+				patient_profile.add(lblReligion);
+				
+				JLabel lblOccupation = new JLabel("OCCUPATION :");
+				lblOccupation.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblOccupation.setBounds(64, 347, 174, 34);
+				patient_profile.add(lblOccupation);
+				
+				JLabel lblContactNumber = new JLabel("CONTACT NUMBER :");
+				lblContactNumber.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblContactNumber.setBounds(64, 387, 220, 28);
+				patient_profile.add(lblContactNumber);
+				
+				JLabel lblHeight = new JLabel("HEIGHT  :");
+				lblHeight.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblHeight.setBounds(64, 245, 109, 23);
+				patient_profile.add(lblHeight);
+				
+				JLabel lblCheifComplaint = new JLabel("CHEIF COMPLAINT :");
+				lblCheifComplaint.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblCheifComplaint.setBounds(424, 85, 220, 28);
+				patient_profile.add(lblCheifComplaint);
+				
+				JLabel lblDrugHistory = new JLabel("DRUG HISTORY :");
+				lblDrugHistory.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblDrugHistory.setBounds(424, 115, 187, 28);
+				patient_profile.add(lblDrugHistory);
+				
+				JLabel lblNewLabel_3Name = new JLabel("New Label");
+				lblNewLabel_3Name.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				//lblNewLabel_3.setText("");
+				lblNewLabel_3Name.setBounds(154, 82, 260, 20);
+				patient_profile.add(lblNewLabel_3Name);
+				
+				JLabel lblAge_2 = new JLabel("Age");
+				lblAge_2.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblAge_2.setBounds(133, 126, 78, 23);
+				patient_profile.add(lblAge_2);
+				
+				JLabel lblSex_1 = new JLabel("Sex");
+				lblSex_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblSex_1.setBounds(133, 171, 132, 23);
+				patient_profile.add(lblSex_1);
+				
+				JLabel lblMstatus = new JLabel("MStatus");
+				lblMstatus.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblMstatus.setBounds(280, 279, 174, 28);
+				patient_profile.add(lblMstatus);
+				
+				JLabel lblReligion_1 = new JLabel("Religion");
+				lblReligion_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblReligion_1.setBounds(206, 310, 149, 35);
+				patient_profile.add(lblReligion_1);
+				
+				JLabel lblOccupation_1 = new JLabel("Occupation");
+				lblOccupation_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblOccupation_1.setBounds(236, 347, 206, 34);
+				patient_profile.add(lblOccupation_1);
+				
+				JLabel lblWeight_1 = new JLabel("Weight");
+				lblWeight_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblWeight_1.setBounds(183, 205, 49, 28);
+				patient_profile.add(lblWeight_1);
+				
+				JLabel lblHeight_1 = new JLabel("Height");
+				lblHeight_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblHeight_1.setBounds(183, 241, 95, 30);
+				patient_profile.add(lblHeight_1);
+				
+				JLabel lblComplaint = new JLabel("Complaint");
+				lblComplaint.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblComplaint.setBounds(654, 82, 426, 35);
+				patient_profile.add(lblComplaint);
+				
+				JLabel lblDrugHistory_1 = new JLabel("Drug History");
+				lblDrugHistory_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblDrugHistory_1.setBounds(621, 114, 459, 30);
+				patient_profile.add(lblDrugHistory_1);
+				
+				JLabel lblContact = new JLabel("Contact");
+				lblContact.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblContact.setBounds(294, 386, 234, 31);
+				patient_profile.add(lblContact);
+				
+				patDetails.add(patient_profile);
+				
+				JLabel lblKg = new JLabel("KG");
+				lblKg.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblKg.setBounds(240, 208, 38, 23);
+				patient_profile.add(lblKg);
+				
+				JLabel lblNewLabel_9 = new JLabel("");
+				lblNewLabel_9.setIcon(new ImageIcon(test1.class.getResource("/images/file4545.jpeg")));
+				lblNewLabel_9.setBounds(0, 0, 1104, 606);
+				patient_profile.add(lblNewLabel_9);
 		
 		JPanel graph = new JPanel();
 		graph.setBounds(148, 0, 1103, 606);
@@ -1042,7 +1073,7 @@ public class test1 extends JFrame {
 		JButton btnHistory = new JButton("HISTORY");
 		btnHistory.setForeground(Color.BLACK);
 		btnHistory.setBackground(UIManager.getColor("Button.background"));
-		btnHistory.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\rsz_heart_pulse-512.png"));
+		btnHistory.setIcon(new ImageIcon(test1.class.getResource("/icons/rsz_heart_pulse-512.png")));
 		btnHistory.setVerticalTextPosition(SwingConstants.BOTTOM);
 		btnHistory.setHorizontalTextPosition(SwingConstants.CENTER);
 
@@ -1055,7 +1086,7 @@ public class test1 extends JFrame {
 		JButton btnPatient = new JButton("<html>PATIENT<br> PROFILE</html>");
 		btnPatient.setVerticalAlignment(SwingConstants.BOTTOM);
 		btnPatient.setForeground(new Color(0, 0, 0));
-		btnPatient.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\rsz_1pat_pro.png"));
+		btnPatient.setIcon(new ImageIcon(test1.class.getResource("/icons/rsz_2pat_pro.png")));
 		btnPatient.setVerticalTextPosition(SwingConstants.BOTTOM);
 		btnPatient.setHorizontalTextPosition(SwingConstants.CENTER);
 		btnPatient.setToolTipText("");
@@ -1067,7 +1098,7 @@ public class test1 extends JFrame {
 		
 		
 		JButton btnTest = new JButton("TEST");
-		btnTest.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\rsz_test-tubes-512.png"));
+		btnTest.setIcon(new ImageIcon(test1.class.getResource("/icons/rsz_test-tubes-512.png")));
 		btnTest.setVerticalTextPosition(SwingConstants.BOTTOM);
 		btnTest.setHorizontalTextPosition(SwingConstants.CENTER);
 
@@ -1078,7 +1109,7 @@ public class test1 extends JFrame {
 		patDetails.add(btnTest);
 		
 		JButton btnReport = new JButton("REPORT");
-		btnReport.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\rsz_medical_test_stethoscope-512.png"));
+		btnReport.setIcon(new ImageIcon(test1.class.getResource("/icons/rsz_medical_test_stethoscope-512.png")));
 		btnReport.setVerticalTextPosition(SwingConstants.BOTTOM);
 		btnReport.setHorizontalTextPosition(SwingConstants.CENTER);
 
@@ -1089,7 +1120,7 @@ public class test1 extends JFrame {
 		patDetails.add(btnReport);
 		
 		JButton btnLogOut_1 = new JButton("");
-		btnLogOut_1.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\logout-btn.png"));
+		btnLogOut_1.setIcon(new ImageIcon(test1.class.getResource("/icons/logout-btn.png")));
 		btnLogOut_1.setForeground(Color.RED);
 		btnLogOut_1.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		
@@ -1097,14 +1128,14 @@ public class test1 extends JFrame {
 		patDetails.add(btnLogOut_1);
 		
 		JButton btnBack = new JButton("");
-		btnBack.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\back-button.png"));
+		btnBack.setIcon(new ImageIcon(test1.class.getResource("/icons/back-button.png")));
 		btnBack.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		
 		btnBack.setBounds(1144, 609, 114, 40);
 		patDetails.add(btnBack);
 		
 		JButton btnGraph = new JButton("GRAPH");
-		btnGraph.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\rsz_benchmark1.png"));
+		btnGraph.setIcon(new ImageIcon(test1.class.getResource("/icons/rsz_benchmark1.png")));
 		btnGraph.setVerticalTextPosition(SwingConstants.BOTTOM);
 		btnGraph.setHorizontalTextPosition(SwingConstants.CENTER);
 
@@ -1122,8 +1153,8 @@ public class test1 extends JFrame {
 		
 		
 		JButton btnNewButton = new JButton("");
-		btnNewButton.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\loginbutton (1).png"));
-		btnNewButton.setBounds(346, 376, 117, 39);
+		btnNewButton.setIcon(new ImageIcon(test1.class.getResource("/icons/loginbutton (1).png")));
+		btnNewButton.setBounds(603, 363, 115, 39);
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 
@@ -1160,7 +1191,7 @@ public class test1 extends JFrame {
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setBounds(0, 0, 1274, 651);
-		lblNewLabel.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\images\\gradient_light_dark_background_51893_3840x2160_1274x651.jpg"));
+		lblNewLabel.setIcon(new ImageIcon(test1.class.getResource("/images/gradient_light_dark_background_51893_3840x2160_1274x651.jpg")));
 		docLogin.add(lblNewLabel);
 		
 		
@@ -1186,22 +1217,22 @@ public class test1 extends JFrame {
 		JLabel lblPatientId = new JLabel("PATIENT ID :");
 		lblPatientId.setForeground(Color.RED);
 		lblPatientId.setFont(new Font("Tahoma", Font.PLAIN, 24));
-		lblPatientId.setBounds(807, 208, 142, 34);
+		lblPatientId.setBounds(397, 524, 142, 34);
 		patLogin.add(lblPatientId);
 		
 		textField_2 = new JTextField();
 		textField_2.setForeground(new Color(0, 100, 0));
 		textField_2.setFont(new Font("Tahoma", Font.PLAIN, 24));
-		textField_2.setBounds(959, 208, 127, 34);
+		textField_2.setBounds(549, 524, 127, 34);
 //		patID = textField_2.getText();
 		patLogin.add(textField_2);
 		textField_2.setColumns(10);
 		
 		JButton btnSubmit = new JButton("");
-		btnSubmit.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\submit-example_127x34.png"));
+		btnSubmit.setIcon(new ImageIcon(test1.class.getResource("/icons/submit-example_127x34.png")));
 		btnSubmit.setFont(new Font("Tahoma", Font.PLAIN, 16));
 		btnSubmit.setForeground(Color.BLUE);
-		btnSubmit.setBounds(1105, 208, 127, 34);
+		btnSubmit.setBounds(695, 524, 127, 34);
 		patLogin.add(btnSubmit);
 		
 		btnSubmit.addActionListener(new ActionListener() {
@@ -1325,7 +1356,7 @@ public class test1 extends JFrame {
 		});
 		
 		JButton btnLogOut = new JButton("");
-		btnLogOut.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\icons\\logout-btn.png"));
+		btnLogOut.setIcon(new ImageIcon(test1.class.getResource("/icons/logout-btn.png")));
 		btnLogOut.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				
@@ -1351,7 +1382,7 @@ public class test1 extends JFrame {
 		patLogin.add(btnLogOut);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\User\\Desktop\\JAVA PROJECT\\finalGummy\\images\\1280x800_love-heart-beat-abstract-widescreen-graph-HD-Wallpaper.jpg"));
+		label.setIcon(new ImageIcon(test1.class.getResource("/images/1280x800_love-heart-beat-abstract-widescreen-graph-HD-Wallpaper.jpg")));
 		label.setBounds(0, 0, 1274, 651);
 		patLogin.add(label);
 		
