@@ -335,11 +335,7 @@ public class test1 extends JFrame {
 				lblKg.setBounds(240, 208, 38, 23);
 				patient_profile.add(lblKg);
 				
-				JLabel lblNewLabel_9 = new JLabel("");
-				lblNewLabel_9.setBounds(0, 0, 1104, 606);
-				patient_profile.add(lblNewLabel_9);
-				
-				JLabel lblPhoto = new JLabel("Photo");
+				JLabel lblPhoto = new JLabel();
 				lblPhoto.setBounds(526, 71, 226, 204);
 				patient_profile.add(lblPhoto);
 		btnCancel.setBounds(10, 557, 90, 35);
