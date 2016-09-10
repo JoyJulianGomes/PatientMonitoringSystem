@@ -202,6 +202,146 @@ public class test1 extends JFrame {
 				//STATUS.setVisible(false);
 			}
 		});
+		
+				
+			
+				
+		       // frame.getContentPane().add(panel);
+				
+				//pat search page finish
+		
+			    //patient profile panel begin
+				
+				JPanel patient_profile = new JPanel();
+				patient_profile.setBounds(147, 0, 1104, 606);
+				patient_profile.setBackground(Color.WHITE);
+				patient_profile.setLayout(null);
+				
+				JLabel lblWeight = new JLabel("WEIGHT :");
+				lblWeight.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblWeight.setBounds(64, 209, 109, 20);
+				patient_profile.add(lblWeight);
+				
+				JLabel lblName_1 = new JLabel("NAME :");
+				lblName_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblName_1.setBounds(64, 82, 109, 20);
+				patient_profile.add(lblName_1);
+				
+				JLabel lblAge = new JLabel("AGE :");
+				lblAge.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblAge.setBounds(64, 127, 78, 20);
+				patient_profile.add(lblAge);
+				
+				JLabel lblSex = new JLabel("SEX :");
+				lblSex.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblSex.setBounds(64, 171, 78, 23);
+				patient_profile.add(lblSex);
+				
+				JLabel lblMaritalStatus = new JLabel("MARITAL STATUS :");
+				lblMaritalStatus.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblMaritalStatus.setBounds(64, 279, 220, 28);
+				patient_profile.add(lblMaritalStatus);
+				
+				JLabel lblReligion = new JLabel("RELIGION :");
+				lblReligion.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblReligion.setBounds(64, 312, 132, 30);
+				patient_profile.add(lblReligion);
+				
+				JLabel lblOccupation = new JLabel("OCCUPATION :");
+				lblOccupation.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblOccupation.setBounds(64, 347, 174, 34);
+				patient_profile.add(lblOccupation);
+				
+				JLabel lblContactNumber = new JLabel("CONTACT NUMBER :");
+				lblContactNumber.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblContactNumber.setBounds(64, 387, 220, 28);
+				patient_profile.add(lblContactNumber);
+				
+				JLabel lblHeight = new JLabel("HEIGHT  :");
+				lblHeight.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblHeight.setBounds(64, 245, 109, 23);
+				patient_profile.add(lblHeight);
+				
+				JLabel lblCheifComplaint = new JLabel("CHEIF COMPLAINT :");
+				lblCheifComplaint.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblCheifComplaint.setBounds(64, 523, 220, 28);
+				patient_profile.add(lblCheifComplaint);
+				
+				JLabel lblDrugHistory = new JLabel("DRUG HISTORY :");
+				lblDrugHistory.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblDrugHistory.setBounds(64, 553, 187, 28);
+				patient_profile.add(lblDrugHistory);
+				
+				JLabel lblNewLabel_3Name = new JLabel("New Label");
+				lblNewLabel_3Name.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				//lblNewLabel_3.setText("");
+				lblNewLabel_3Name.setBounds(154, 82, 260, 20);
+				patient_profile.add(lblNewLabel_3Name);
+				
+				JLabel lblAge_2 = new JLabel("Age");
+				lblAge_2.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblAge_2.setBounds(133, 126, 78, 23);
+				patient_profile.add(lblAge_2);
+				
+				JLabel lblSex_1 = new JLabel("Sex");
+				lblSex_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblSex_1.setBounds(133, 171, 132, 23);
+				patient_profile.add(lblSex_1);
+				
+				JLabel lblMstatus = new JLabel("MStatus");
+				lblMstatus.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblMstatus.setBounds(280, 279, 174, 28);
+				patient_profile.add(lblMstatus);
+				
+				JLabel lblReligion_1 = new JLabel("Religion");
+				lblReligion_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblReligion_1.setBounds(206, 310, 149, 35);
+				patient_profile.add(lblReligion_1);
+				
+				JLabel lblOccupation_1 = new JLabel("Occupation");
+				lblOccupation_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblOccupation_1.setBounds(236, 347, 206, 34);
+				patient_profile.add(lblOccupation_1);
+				
+				JLabel lblWeight_1 = new JLabel("Weight");
+				lblWeight_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblWeight_1.setBounds(183, 205, 49, 28);
+				patient_profile.add(lblWeight_1);
+				
+				JLabel lblHeight_1 = new JLabel("Height");
+				lblHeight_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblHeight_1.setBounds(183, 241, 95, 30);
+				patient_profile.add(lblHeight_1);
+				
+				JLabel lblComplaint = new JLabel("Complaint");
+				lblComplaint.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblComplaint.setBounds(294, 520, 722, 35);
+				patient_profile.add(lblComplaint);
+				
+				JLabel lblDrugHistory_1 = new JLabel("Drug History");
+				lblDrugHistory_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblDrugHistory_1.setBounds(261, 552, 755, 30);
+				patient_profile.add(lblDrugHistory_1);
+				
+				JLabel lblContact = new JLabel("Contact");
+				lblContact.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblContact.setBounds(294, 386, 234, 31);
+				patient_profile.add(lblContact);
+				
+				patDetails.add(patient_profile);
+				
+				JLabel lblKg = new JLabel("KG");
+				lblKg.setFont(new Font("Tahoma", Font.PLAIN, 24));
+				lblKg.setBounds(240, 208, 38, 23);
+				patient_profile.add(lblKg);
+				
+				JLabel lblNewLabel_9 = new JLabel("");
+				lblNewLabel_9.setBounds(0, 0, 1104, 606);
+				patient_profile.add(lblNewLabel_9);
+				
+				JLabel lblPhoto = new JLabel("Photo");
+				lblPhoto.setBounds(526, 71, 226, 204);
+				patient_profile.add(lblPhoto);
 		btnCancel.setBounds(10, 557, 90, 35);
 		pathTest.add(btnCancel);
 		
@@ -911,143 +1051,6 @@ public class test1 extends JFrame {
 			}
 		});
 		
-				
-			
-				
-		       // frame.getContentPane().add(panel);
-				
-				//pat search page finish
-		
-			    //patient profile panel begin
-				
-				JPanel patient_profile = new JPanel();
-				patient_profile.setBounds(147, 0, 1104, 606);
-				patient_profile.setBackground(Color.WHITE);
-				patient_profile.setLayout(null);
-				
-				JLabel lblWeight = new JLabel("WEIGHT :");
-				lblWeight.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblWeight.setBounds(64, 209, 109, 20);
-				patient_profile.add(lblWeight);
-				
-				JLabel lblName_1 = new JLabel("NAME :");
-				lblName_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblName_1.setBounds(64, 82, 109, 20);
-				patient_profile.add(lblName_1);
-				
-				JLabel lblAge = new JLabel("AGE :");
-				lblAge.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblAge.setBounds(64, 127, 78, 20);
-				patient_profile.add(lblAge);
-				
-				JLabel lblSex = new JLabel("SEX :");
-				lblSex.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblSex.setBounds(64, 171, 78, 23);
-				patient_profile.add(lblSex);
-				
-				JLabel lblMaritalStatus = new JLabel("MARITAL STATUS :");
-				lblMaritalStatus.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblMaritalStatus.setBounds(64, 279, 220, 28);
-				patient_profile.add(lblMaritalStatus);
-				
-				JLabel lblReligion = new JLabel("RELIGION :");
-				lblReligion.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblReligion.setBounds(64, 312, 132, 30);
-				patient_profile.add(lblReligion);
-				
-				JLabel lblOccupation = new JLabel("OCCUPATION :");
-				lblOccupation.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblOccupation.setBounds(64, 347, 174, 34);
-				patient_profile.add(lblOccupation);
-				
-				JLabel lblContactNumber = new JLabel("CONTACT NUMBER :");
-				lblContactNumber.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblContactNumber.setBounds(64, 387, 220, 28);
-				patient_profile.add(lblContactNumber);
-				
-				JLabel lblHeight = new JLabel("HEIGHT  :");
-				lblHeight.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblHeight.setBounds(64, 245, 109, 23);
-				patient_profile.add(lblHeight);
-				
-				JLabel lblCheifComplaint = new JLabel("CHEIF COMPLAINT :");
-				lblCheifComplaint.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblCheifComplaint.setBounds(424, 85, 220, 28);
-				patient_profile.add(lblCheifComplaint);
-				
-				JLabel lblDrugHistory = new JLabel("DRUG HISTORY :");
-				lblDrugHistory.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblDrugHistory.setBounds(424, 115, 187, 28);
-				patient_profile.add(lblDrugHistory);
-				
-				JLabel lblNewLabel_3Name = new JLabel("New Label");
-				lblNewLabel_3Name.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				//lblNewLabel_3.setText("");
-				lblNewLabel_3Name.setBounds(154, 82, 260, 20);
-				patient_profile.add(lblNewLabel_3Name);
-				
-				JLabel lblAge_2 = new JLabel("Age");
-				lblAge_2.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblAge_2.setBounds(133, 126, 78, 23);
-				patient_profile.add(lblAge_2);
-				
-				JLabel lblSex_1 = new JLabel("Sex");
-				lblSex_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblSex_1.setBounds(133, 171, 132, 23);
-				patient_profile.add(lblSex_1);
-				
-				JLabel lblMstatus = new JLabel("MStatus");
-				lblMstatus.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblMstatus.setBounds(280, 279, 174, 28);
-				patient_profile.add(lblMstatus);
-				
-				JLabel lblReligion_1 = new JLabel("Religion");
-				lblReligion_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblReligion_1.setBounds(206, 310, 149, 35);
-				patient_profile.add(lblReligion_1);
-				
-				JLabel lblOccupation_1 = new JLabel("Occupation");
-				lblOccupation_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblOccupation_1.setBounds(236, 347, 206, 34);
-				patient_profile.add(lblOccupation_1);
-				
-				JLabel lblWeight_1 = new JLabel("Weight");
-				lblWeight_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblWeight_1.setBounds(183, 205, 49, 28);
-				patient_profile.add(lblWeight_1);
-				
-				JLabel lblHeight_1 = new JLabel("Height");
-				lblHeight_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblHeight_1.setBounds(183, 241, 95, 30);
-				patient_profile.add(lblHeight_1);
-				
-				JLabel lblComplaint = new JLabel("Complaint");
-				lblComplaint.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblComplaint.setBounds(654, 82, 426, 35);
-				patient_profile.add(lblComplaint);
-				
-				JLabel lblDrugHistory_1 = new JLabel("Drug History");
-				lblDrugHistory_1.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblDrugHistory_1.setBounds(621, 114, 459, 30);
-				patient_profile.add(lblDrugHistory_1);
-				
-				JLabel lblContact = new JLabel("Contact");
-				lblContact.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblContact.setBounds(294, 386, 234, 31);
-				patient_profile.add(lblContact);
-				
-				patDetails.add(patient_profile);
-				
-				JLabel lblKg = new JLabel("KG");
-				lblKg.setFont(new Font("Tahoma", Font.PLAIN, 24));
-				lblKg.setBounds(240, 208, 38, 23);
-				patient_profile.add(lblKg);
-				
-				JLabel lblNewLabel_9 = new JLabel("");
-				lblNewLabel_9.setIcon(new ImageIcon(test1.class.getResource("/images/file4545.jpeg")));
-				lblNewLabel_9.setBounds(0, 0, 1104, 606);
-				patient_profile.add(lblNewLabel_9);
-		
 		JPanel graph = new JPanel();
 		graph.setBounds(148, 0, 1103, 606);
 		patDetails.add(graph);
@@ -1266,6 +1269,7 @@ public class test1 extends JFrame {
 					lblComplaint.setText(pat.getchiefComplaint());
 					lblDrugHistory_1.setText(pat.getdrug_usage());
 					lblContact.setText(Integer.toString(pat.getContact()));
+					lblPhoto.setIcon(new ImageIcon(pat.getImg()));
 					
 					//patient_profile.repaint();
 					
